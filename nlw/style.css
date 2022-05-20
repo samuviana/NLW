@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+ --primary-color: hsl(170, 100%, 26%);
+ --second-color: hsl(208, 100%, 97%);
+ --ter-color: hsl(148, 23%, 89%);
+ --four-color: hsl(39, 100%, 97%); 
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 72px;
+  background-color: var(--primary-color) ;
+  display: flex;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.doctor {
+  font-size: 25px;
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+  width: 35%;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.doc {
+  width: 22%;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.doc:hover {
+  filter: opacity(0.4);
+}
+
+.botoes {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inicio {
+  font-size: 15px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 699ms;
+  transition: ease-in-out;
+}
+
+.inicio:hover {
+  transition: transform 300ms;
+  transform: translateY(-10px);
+  filter: opacity(0.4);
+}
+
+.sobre {
+  font-size: 15px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 699ms;
+  transition: ease-in-out;
+}
+
+.sobre:hover {
+  transition: transform 300ms;
+  transform: translateY(-10px);
+  filter: opacity(0.4);
+}
+
+.servicos {
+  font-size: 15px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 699ms;
+  transition: ease-in-out;
+}
+
+.servicos:hover {
+  transition: transform 300ms;
+  transform: translateY(-10px);
+  filter: opacity(0.4);
+} 
+
+.depoimentos {
+  font-size: 15px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 699ms;
+  transition: ease-in-out;
+}
+
+.depoimentos:hover {
+  transition: transform 300ms;
+  transform: translateY(-10px);
+  filter: opacity(0.4);
+}
+
+.rightconsulta {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agendar {
+display: flex;
+height: 2rem;
+align-items: center;
+background-color: transparent;
+border: none;
+border: 1px solid aliceblue;
+border-radius: 20rem;
+width: 12rem;
+justify-content: center;
+color: aliceblue;
+cursor: pointer;
+transition: ease-in-out;
+}
+
+.agendar:hover {
+  filter: opacity(0.4);
+}
+
+/*--main--*/
+
+.bloco {
+  width: 100%;
+  height: 678px;
+  background-color: var(--ter-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  width: 36%;
+  height: 8rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  padding-left: 12rem;
+}
+
+.assistencia {
+  display: flex;
+  width: 40rem; 
+  padding-left: 12.7rem;
+}
+
+.txtassis {
+  font-size: 52px;
+}
+
+.medicos {
+  display: flex;
+  width: 40rem;
+  padding-left: 12.7rem;
+  padding-top: 2rem;
+}
+
+.botaowpp {
+ width: 40rem;
+ height: 52px;
+ display: flex;
+ justify-content: center;
+ padding-top: 2rem;
+ padding-top: 5rem;
+}
+
+.wppagende {
+  border-radius: 20rem;
+  width: 263px;
+  height: 52px;
+  background-color: var(--primary-color);
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: ease-in-out;
+}
+
+.wppagende:hover {
+  filter: opacity(.4);
+}
+
+.numeros {
+  width: 85%;
+  height: 210px;
+  background-color: var(--four-color);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-radius: .6rem;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 1.8rem;  
+}
+
+.numero h3 {
+  display: flex;
+  font-size: 48px;
+}
+
+.numero p {
+  display: flex;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.number {
+  width: 1250px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;  
+}
+
+.paibloco {
+  display: flex;
+  justify-content: space-between;
+}
+
+.muie {
+  display: flex;
+  padding-right: 20rem;
+  position: relative;
+}
+
+
+
